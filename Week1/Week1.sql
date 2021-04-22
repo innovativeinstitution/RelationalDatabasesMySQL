@@ -19,7 +19,7 @@ select * from student where (studentid = 2 or studentid = 3) order by lastname d
 
 delete from student where studentid = 2;
 
-update student set lastname = 'Narayana' where studentid = 1
+update student set lastname = 'Narayana' where studentid = 1;
 
 select * from student;
 
