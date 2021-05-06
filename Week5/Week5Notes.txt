@@ -1,0 +1,57 @@
+week 5: java connection to mysql
+
+java: 
+
+if(true)
+system.out.println("hello");
+system.out.println("world");
+
+SQL server/mysql:
+
+if(exists(select * from employee))
+begin
+	select * from employee;
+end
+
+Table: rows of data and columns (fields)
+
+View: virtual table (a summary table)
+
+create view as 
+query goes here
+
+view: 1. summary table	
+      2. re-use of queries
+	  3. security
+	  
+
+connect java to mysql (sql server, oracle, etc)
+
+1. java needs to know about what database connecting to 
+	Connection: drivers (jar - package consists of 1 or more java/classes)
+	        sql server drive, mysql driver, oracle driver (jar)
+
+	A. each databse vendor (db driver) has its own signature for connection string
+	    jdbc:mysql//localhost:
+2. C#/Commands (SQL server) / Java/Statements (mysql/oracle/sql server)
+ 
+3. execute commands/statements
+
+4. read data
+	A. java resultSet
+	B. C# dataset (datatable)
+
+5. perform business logic on the data
+
+install mysql it ships with drivers (may not then download the drivers from database vendor site)
+install sql server it ships drivers (
+
+jdbc connection
+jdbc - java database connection (connectivity) driver 
+
+
+java overloaded method or constructor:
+
+same method name but different signatures
+
+data >>> POJO (Plain Old Java Object)
